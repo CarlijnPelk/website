@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(253, 247, 239);  
+    background-color: white;  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -32,7 +32,7 @@ footer {
 
 /* hoofdpagina blokjes */
 
-div.blok-text {
+div.blok-tekst {
     border: 2px solid rgb(167, 167, 167);
     padding: 5px;
     margin: 10px;
@@ -57,6 +57,20 @@ div#nieuwe-menukaart {
     width: 310px;
 }
 
+#NIEUWS {
+    clear: both;
+}
+
+#vesteging-img {
+    height: 200px;
+}
+
+#blok-horizontaal {
+    float: right;
+    width: 320px;
+    /*border: 1px solid red;*/
+}
+
 .kopje-blok {
     text-align: center;
     color: #e46e37;
@@ -71,12 +85,7 @@ div#nieuwe-menukaart {
     margin: 0px;
 }
 
-/* specifieke stijlen */
-
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-}
+/* specifiek hoofdpagina*/
 
 .hoofdpagina-img{
     margin: auto;
@@ -84,17 +93,27 @@ img.zweefLinks {
     height: 400px;
 }
 
-.titel-bijpagina {
-    font-size: 30px;
-    border-bottom: 1px solid #e46e37;
-    padding-bottom: 10px;
-}
-
 #hoofdtitel{
     position: absolute;
     top: 150px;
     left: 35px;
+    color: rgb(221, 114, 43);
     background-color: rgba(230, 228, 228, 0.63);
+}
+
+/* specifieke stijlen */
+
+img.logo-img {
+    float: left;
+    margin: 0px;
+    background-color: #ff864e;
+}
+
+
+.titel-bijpagina {
+    font-size: 30px;
+    border-bottom: 1px solid #e46e37;
+    padding-bottom: 10px;
 }
 
 .smalltext {
