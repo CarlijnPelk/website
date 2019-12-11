@@ -1,4 +1,4 @@
-/* Basislayout */
+                                                    /* Basislayout */
 
 html, body {
     height: 100%;
@@ -20,7 +20,7 @@ header {
     color:#e46e37;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 
@@ -30,7 +30,19 @@ footer {
     clear: both;
 }
 
-/* hoofdpagina blokjes */
+                                                    /* Fonts*/
+
+@font-face{
+    Font-family: sierlijk;
+    src: url(fonts/amalfi-coast.ttf);
+}
+
+@font-face{
+    Font-family: snowby;
+    src: url(fonts/snowby.ttf)
+}
+
+                                                    /* hoofdpagina blokjes */
 
 div.blok-tekst {
     border: 2px solid rgb(167, 167, 167);
@@ -85,23 +97,33 @@ div#nieuwe-menukaart {
     margin: 0px;
 }
 
-/* specifiek hoofdpagina*/
+#aanbieding-text{
+    font-family: snowby;
+    font-size: 50px;
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+                                                    /* specifiek hoofdpagina*/
 
 .hoofdpagina-img{
     margin: auto;
     width: 700px;
     height: 400px;
+    /*opacity: 0.75;*/
 }
 
 #hoofdtitel{
     position: absolute;
-    top: 150px;
-    left: 35px;
-    color: rgb(221, 114, 43);
-    background-color: rgba(230, 228, 228, 0.63);
+    top: 40px;
+    left: 50px;
+    color: white;
+    font-family: sierlijk;
+    text-shadow: 4px 4px 6px black;
 }
 
-/* specifieke stijlen */
+                                                        /* specifieke stijlen */
 
 img.logo-img {
     float: left;
@@ -129,7 +151,7 @@ a:hover {
 }
 
 
-/* navigatiebalk */
+                                                        /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
