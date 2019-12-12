@@ -33,7 +33,7 @@ footer {
                                                     /* Fonts*/
 
 @font-face{
-    Font-family: sierlijk;
+    Font-family: font-hoofdpagina;
     src: url(fonts/amalfi-coast.ttf);
 }
 
@@ -42,7 +42,19 @@ footer {
     src: url(fonts/snowby.ttf)
 }
 
+@font-face{
+    Font-family: notes-font;
+    src: url(fonts/notes-font.ttf)
+}
+
+@font-face{
+    Font-family: light-font;
+    src: url(fonts/light-font.ttf);
+}
+
                                                     /* hoofdpagina blokjes */
+
+/*blokjes*/
 
 div.blok-tekst {
     border: 2px solid rgb(167, 167, 167);
@@ -80,8 +92,10 @@ div#nieuwe-menukaart {
 #blok-horizontaal {
     float: right;
     width: 320px;
-    /*border: 1px solid red;*/
+    
 }
+
+/*text in blokjes*/
 
 .kopje-blok {
     text-align: center;
@@ -89,12 +103,14 @@ div#nieuwe-menukaart {
 }
 
 .onderkopje-blok {
+    font-family: light-font;
     text-align: center;
     color: black;
     font-size: 25px;
     border-bottom: 1px solid rgb(167, 167, 167);
+    box-sizing:border-box;
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
 }
 
 #aanbieding-text{
@@ -103,6 +119,17 @@ div#nieuwe-menukaart {
     margin: 2px;
     padding: 0;
     box-sizing: border-box;
+}
+
+#nieuwemenukaart-text{
+    font-family: notes-font;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 17px;
+}
+
+#nieuws-text{
+    font-family: light-font;
 }
 
                                                     /* specifiek hoofdpagina*/
@@ -119,7 +146,7 @@ div#nieuwe-menukaart {
     top: 40px;
     left: 50px;
     color: white;
-    font-family: sierlijk;
+    font-family: font-hoofdpagina;
     text-shadow: 4px 4px 6px black;
 }
 
