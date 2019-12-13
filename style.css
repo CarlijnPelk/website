@@ -33,7 +33,7 @@ footer {
                                                     /* Fonts*/
 
 @font-face{
-    Font-family: font-hoofdpagina;
+    Font-family: amalfi-coast;
     src: url(fonts/amalfi-coast.ttf);
 }
 
@@ -146,8 +146,17 @@ div#nieuwe-menukaart {
     top: 40px;
     left: 50px;
     color: white;
-    font-family: font-hoofdpagina;
+    font-family: amalfi-coast;
     text-shadow: 4px 4px 6px black;
+}
+
+                                                        /* specifiek bijpagina's */
+
+.titel-bijpagina {
+    font-size: 30px;
+    border-bottom: 1px solid #e46e37;
+    padding-bottom: 10px;
+    font-family: amalfi-coast;
 }
 
                                                         /* specifieke stijlen */
@@ -158,12 +167,6 @@ img.logo-img {
     background-color: #ff864e;
 }
 
-
-.titel-bijpagina {
-    font-size: 30px;
-    border-bottom: 1px solid #e46e37;
-    padding-bottom: 10px;
-}
 
 .smalltext {
     font-size: 0.7em;
