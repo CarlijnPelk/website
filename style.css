@@ -30,27 +30,6 @@ footer {
     clear: both;
 }
 
-                                                    /* Fonts*/
-
-@font-face{
-    Font-family: amalfi-coast;
-    src: url(fonts/amalfi-coast.ttf);
-}
-
-@font-face{
-    Font-family: snowby;
-    src: url(fonts/snowby.ttf)
-}
-
-@font-face{
-    Font-family: notes-font;
-    src: url(fonts/notes-font.ttf)
-}
-
-@font-face{
-    Font-family: light-font;
-    src: url(fonts/light-font.ttf);
-}
 
                                                     /* hoofdpagina blokjes */
 
@@ -154,7 +133,7 @@ div#nieuwe-menukaart {
 
 .titel-bijpagina {
     font-size: 30px;
-    border-bottom: 1px solid #e46e37;
+    /*border-bottom: 1px solid #e46e37;*/
     padding-bottom: 10px;
     font-family: amalfi-coast;
 }
@@ -180,6 +159,13 @@ a:hover {
     text-decoration: underline;
 }
 
+
+                                                        /* map**/
+
+.googlemaps{
+    /*allowfullscreen=""*/
+    width="600" height="450" frameborder="0" style="border:0;"
+}
 
                                                         /* navigatiebalk */
 nav ul {

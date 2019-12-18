@@ -1,0 +1,20 @@
+
+@font-face{
+    Font-family: amalfi-coast;
+    src: url(fonts/amalfi-coast.ttf);
+}
+
+@font-face{
+    Font-family: snowby;
+    src: url(fonts/snowby.ttf);
+}
+
+@font-face{
+    Font-family: notes-font;
+    src: url(fonts/notes-font.ttf);
+}
+
+@font-face{
+    Font-family: light-font;
+    src: url(fonts/light-font.ttf);
+}
