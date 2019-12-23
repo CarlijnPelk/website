@@ -170,6 +170,7 @@ a:hover {
     style: border;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .stad-titel{
@@ -183,6 +184,13 @@ a:hover {
 
 #rotterdam-nieuw{
     color: #e46e37;
+    font-size: 18px;
+    font-family: caviar-dreams;
+}
+
+#ondertitel-vestegingen{
+    font-family: caviar-dreams;
+    text-align: center;
 }
 
                                                         /* navigatiebalk */

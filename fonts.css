@@ -18,3 +18,8 @@
     Font-family: light-font;
     src: url(fonts/light-font.ttf);
 }
+
+@font-face{
+    Font-family: caviar-dreams;
+    src: url(fonts/caviar-dreams.ttf)
+}
