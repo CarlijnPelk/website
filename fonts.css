@@ -21,5 +21,10 @@
 
 @font-face{
     Font-family: caviar-dreams;
-    src: url(fonts/caviar-dreams.ttf)
+    src: url(fonts/caviar-dreams.ttf);
+}
+
+@font-face{
+    font-family: cheveuxdange;
+    src: url(fonts/cheveuxdange.ttf);
 }

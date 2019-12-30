@@ -1,0 +1,100 @@
+
+
+
+                                                    /* hoofdpagina blokjes */
+
+/*blokjes*/
+
+div.blok-tekst {
+    border: 2px solid rgb(167, 167, 167);
+    padding: 5px;
+    margin: 10px;
+    height: absolute;
+}
+
+#aanbieding {
+    float:right;
+    width: 310px;
+}
+
+div#nieuwe-menukaart {
+    float:left;
+    width: 310px;
+}
+
+#avocado-img {
+    float: left;
+    border: 2px solid rgb(167, 167, 167);
+    padding: 5px;
+    margin: 10px;
+    width: 310px;
+}
+
+#NIEUWS {
+    clear: both;
+}
+
+#vesteging-img {
+    height: 200px;
+}
+
+#blok-horizontaal {
+    float: right;
+    width: 320px;
+    
+}
+
+/*text in blokjes*/
+
+.kopje-blok {
+    text-align: center;
+    color: #e46e37;
+}
+
+.onderkopje-blok {
+    font-family: light-font;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    border-bottom: 1px solid rgb(167, 167, 167);
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 10px;
+}
+
+#aanbieding-text{
+    font-family: snowby;
+    font-size: 50px;
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nieuwemenukaart-text{
+    font-family: notes-font;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 17px;
+}
+
+#nieuws-text{
+    font-family: light-font;
+}
+
+                                                    /* specifiek hoofdpagina*/
+
+.hoofdpagina-img{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    /*opacity: 0.75;*/
+}
+
+#hoofdtitel{
+    position: absolute;
+    top: 40px;
+    left: 45px;
+    color: white;
+    font-family: amalfi-coast;
+    text-shadow: 4px 4px 6px black;
+}
