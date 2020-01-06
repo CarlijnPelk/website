@@ -103,6 +103,7 @@ nav ul {
     padding: 0;
     background-color: #ff864e;
     overflow: hidden;
+    font-family: light-font;
 }
 
 nav ul li {

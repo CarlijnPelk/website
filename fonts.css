@@ -28,3 +28,18 @@
     font-family: cheveuxdange;
     src: url(fonts/cheveuxdange.ttf);
 }
+
+@font-face{
+    font-family: the-skinny;
+    src: url(fonts/the-skinny.otf);
+}
+
+@font-face{
+    font-family: roberts;
+    src: url(fonts/roberts.ttf);
+}
+
+@font-face{
+    font-family: the-skinny;
+    src: url(fonts/modernsans.otf);
+}

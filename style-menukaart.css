@@ -1,20 +1,67 @@
+        /*fonts*/
 
 h2 {
-    font-family: cheveuxdange;
+    font-family: roberts;
     font-size: 30px;
     text-align: center;
+    color:#b4562b;
 }
 
-#ontbijt {
+h3 {
+    font-family: light-font;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+h3 i {
+    font-size: 16px;
+}
+
+.onder-info {
+    font-family: modernsans;
+    font-size: 14px;
+    font-style: italic;
+    box-sizing: border-box;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 10px;
+}
+
+h4 {
+    font-family: roberts;
+    font-size: 20px;
+    color: #96451f;
+    box-sizing: border-box;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.h4onder {
+    color: #96451f;
+}
+
+        /*menukaart*/
+
+.menutitel {
     width: 340px;
-    background-color: rgb(238, 225, 206);
     padding: 5px;
+}
+
+.menu-dingen{
+    width: 165px;
+    padding: 5px;
+}
+
+.ontbijt {
+    background-color: rgb(245, 237, 225);
     float: left;
 }
 
-#lunch {
-    width: 340px;
+.lunch {
     background-color: rgb(212, 201, 184);
-    padding: 5px;
     float: right;
 }
