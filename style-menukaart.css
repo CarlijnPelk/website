@@ -4,7 +4,7 @@ h2 {
     font-family: roberts;
     font-size: 30px;
     text-align: center;
-    color:#b4562b;
+    color: #bb5526;
 }
 
 h3 {
@@ -44,6 +44,7 @@ h4 {
     color: #96451f;
 }
 
+
         /*menukaart*/
 
 .menutitel {
@@ -64,4 +65,41 @@ h4 {
 .lunch {
     background-color: rgb(212, 201, 184);
     float: right;
+}
+
+        /* linkjes */
+
+.link-img:hover {
+    opacity: 0.5;
+}
+
+.link-img {
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+h2 .link-menu {
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+.linktitelmenu {
+    width: 350px;
+    text-align: center;
+}
+
+.links {
+    float: left;
+}
+
+.rechts {
+    float: right;
+}
+
+.terug-menu {
+    font-family: light-font;
+    font-size: 20px;
 }
