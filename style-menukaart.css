@@ -45,29 +45,91 @@ h4 {
 }
 
 
-        /*menukaart*/
+             /*menukaart*/
 
+/* algemeen */
 .menutitel {
-    width: 340px;
+    width: 500px;
     padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .menu-dingen{
-    width: 165px;
-    padding: 5px;
+    width: 235px;
+    padding: 10px;
 }
 
+.blok-links{
+    margin-left: 100px;
+}
+
+
+/*specifieke blokjes*/
+/*ontbijt*/
 .ontbijt {
     background-color: rgb(245, 237, 225);
     float: left;
 }
 
-.lunch {
-    background-color: rgb(212, 201, 184);
-    float: right;
+
+.ontbijtplank {
+    background-color: rgb(233, 143, 102);
+    width: 260px;
+    padding: 10px;
+    margin: 75px;
+    clear: both;
+    z-index: 3;
 }
 
-        /* linkjes */
+.img-smoothiebowl{
+   position: absolute;
+   left: 350px;
+   top: 580px;
+   z-index: 3;
+}
+
+.onderstuk-ontbijt{
+    width: 500px;
+    background-color:  rgb(245, 237, 225);
+    position: absolute;
+    left: 100px;
+    top: 769px;
+    z-index: 1;
+}
+
+/*lunch*/
+.lunch {
+    background-color: rgb(212, 201, 184);
+    float: left;
+}
+
+#img-soep{
+   position: absolute;
+   left: 350px;
+   top: 660px;
+   z-index: 3;
+}
+
+#soep {
+    background-color: rgb(233, 143, 102);
+    width: 260px;
+    padding: 10px;
+    margin: 75px;
+    clear: both;
+    z-index: 3;
+}
+
+#onderstuk-lunch{
+    width: 500px;
+    background-color:  rgb(212, 201, 184);
+    position: absolute;
+    left: 100px;
+    top: 700px;
+    z-index: 1;
+}
+
+          /* linkjes */
 
 .link-img:hover {
     opacity: 0.5;
@@ -79,6 +141,7 @@ h4 {
     margin-right: 25px;
     margin-bottom: 10px;
     margin-top: 0px;
+    opacity: 0.85;
 }
 
 h2 .link-menu {
