@@ -97,6 +97,31 @@ a:hover {
     text-align: center;
 }
 
+                                                        /* openingstijden */
+
+.table-opening {
+    width: 500px;
+    font-family: caviar-dreams;
+    font-size: 20px;
+}
+
+.laatste-table {
+    margin-bottom: 30px;
+}
+
+                                                        /*contact */
+
+.contact-text {
+    font-family: caviar-dreams;
+    font-size: 18px;
+}
+
+.reserveer-text {
+    font-family: caviar-dreams;
+    font-size: 15px;
+    text-align: center;
+}
+
                                                         /* navigatiebalk */
 nav ul {
     list-style-type: none;
